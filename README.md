@@ -12,7 +12,7 @@ Collection of useful links and tools:
 - LXPLUS computing enviroments - dos and donts: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookSetComputerNode
   
 
-ECAL-ENERGY-SCALE: Elena De Santis
+## ECAL-ENERGY-SCALE: Elena De Santis
 
 Ntuples: /afs/cern.ch/user/r/ratramon/public/ECAL_ScaleSmear
 
@@ -25,9 +25,9 @@ Refs:
     -  https://indico.cern.ch/event/977830/contributions/4127447/attachments/2154556/3633814/ECAL_GeneralMeeting_Lin.pdf
 
 
-MERGED DIELE/DIPHO:  Samuele Di Valeriano
+## MERGED DIELE/DIPHO:  Samuele Di Valeriano
 
 Ntuple: /afs/cern.ch/user/a/atownsen/public/Haa4e_mass20MeV_ctau010um/MLNanoAODv9
 
 
-MTD PERFORMANCE: Nataly Debellis
+## MTD PERFORMANCE: Nataly Debellis
