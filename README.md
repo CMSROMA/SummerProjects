@@ -18,7 +18,8 @@ Ntuples: /afs/cern.ch/user/r/ratramon/public/ECAL_ScaleSmear
 
 Refs: 
 
-- Scale and Smearing corrections at CMS: https://arxiv.org/pdf/2012.06888 - Section 6 and specifically 6.2
+- Electron and Photon reconstruction and identification at CMS: https://arxiv.org/pdf/2012.06888
+    - Scale and smearing corrections: Section 6 and specifically 6.2
 - Low energy scale and smearing:
     - procedures and techniques:
     -  https://www.roma1.infn.it/exp/cms/tesi/tesi_laurea_completate/nourbakhsh.pdf - Section 5.3
