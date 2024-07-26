@@ -31,5 +31,10 @@ Refs:
 
 Ntuple: /afs/cern.ch/user/a/atownsen/public/Haa4e_mass20MeV_ctau010um/MLNanoAODv9
 
+Refs:
+- guide to run on CMSSW nanoAOD beyond standards: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD
+- paper merged photons:https://drive.google.com/file/d/1TFKLTKCYu6uqin8xV-5pKWMUSkWIhUVs/view?usp=drive_link
+- AN merged photons:https://drive.google.com/file/d/1TxM_IJNs2Th4isH1vJTq4n6NhSyvNTji/view?usp=drive_link
+- Approval talk merged photons:https://drive.google.com/file/d/1eqnVV1IFvLY3h8p1H-fhJYvT2G_u9iax/view?usp=drive_link
 
 ## MTD PERFORMANCE: Nataly Debellis
