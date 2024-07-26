@@ -31,6 +31,12 @@ Refs:
 
 Ntuple: /afs/cern.ch/user/a/atownsen/public/Haa4e_mass20MeV_ctau010um/MLNanoAODv9
 
+ToDos:
+- check genparticles, ele/pho and match with reco objects (only BARREL).
+- Plot kinematic quantities
+- Count and identify objects in the dR of gen ele/pho.
+- Explore MLPhoton objects. match them with gen ele/pho/
+  
 Refs:
 - guide to run on CMSSW nanoAOD beyond standards: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD
 - paper merged photons:https://drive.google.com/file/d/1TFKLTKCYu6uqin8xV-5pKWMUSkWIhUVs/view?usp=drive_link
