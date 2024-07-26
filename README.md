@@ -10,6 +10,7 @@ Collection of useful links and tools:
 - CernMAP: https://maps.cern.ch/?xmin=2487929.39&ymin=1119636.04&xmax=2498563.55&ymax=1125732.06&basemap=plan&mode=2D&travelMode=Car
 - CMS Bignami - 01/07/2024 Induction course Agenda: https://indico.cern.ch/event/1409820/timetable/
 - LXPLUS computing enviroments - dos and donts: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookSetComputerNode
+- EOS web page to store your plots: instruction in [eoswww_setup.pdf](computing/setup_instructions/eoswww_setup.pdf)
   
 
 ## ECAL-ENERGY-SCALE: Elena De Santis
