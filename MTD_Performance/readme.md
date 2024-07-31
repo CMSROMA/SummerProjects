@@ -7,7 +7,14 @@
 # Informazioni generali
 - Gli eventi sono $t\bar{t}$ con e senza 200 PU.
 - Per la back-propagation delle tracce dal layer di MTD alla beamline, vengono considerate le sole ipotesi di pione, kaone e protone. 
-- Vengono salvati **tutti** i vertici ricostruiti e simulati, sia di segnale che di pile-up, assieme alle relative tracce.
+- Vengono salvati **tutti** i vertici ricostruiti e simulati, sia di segnale che di pile-up, assieme alle relative tracce. Assieme vengono salvate delle mappe che permettono di associare:
+  - A ciascuna delle tracce, il suo corrispettivo vertice (una mappa per sim track <-> sim vtx, un'altra per reco track <-> reco vtx)
+  - A ciascuna traccia ricostruita, la corrispettiva traccia simulata
+  - A ciascun vertice ricostruito, il corrispendente vertice simulato
+
+# Caveats
+- Non tutte le tracce simulate hanno associato un tempo ad MTD (`mc_track_tmtd`). Questo avviene quando non è presente nessun hit in MTD associato alla traccia. In questo caso, viene lasciato il valore di default (-999). Le tracce interessanti, però, sono quelle con informazione temporale. Nell'analizzarle, quindi, conviene filtrare via le altre facendo un check su questa variabile.
+- Per le variabili ricostruite è salvata una flag di qualità (`track_MVA_selected`) che applica dei tagli base ma abbastanza laschi al $p_T$, $\eta$ e al $\Delta t$, $\Delta z$ con il corrispettivo vertice. In particolare, il $p_T$ minimo richiesto ($0.7\,\text{GeV}$) garantisce, per tracce comprese in BTL ($|\eta| < 1.5$) che la traccia riesca a raggiungere il rivelatore (per effetto della curvatura).
 
 # Legenda variabili ntuple
 
